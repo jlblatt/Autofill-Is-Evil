@@ -277,6 +277,27 @@ input[type="text"] {
   appearance:         none;
 }
 
+input[type="submit"], button {
+  display: block;
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "sans-serif";
+  font-size: 1.8rem;
+  padding: .4rem;
+  border: 1px solid #222;
+  background: #444;
+  color: #fff;
+  outline: none;
+  border-radius: none;
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+}
+
+  input[type="submit"]:hover, button:hover {
+    cursor: pointer;
+    opacity: .8;
+  }
+
 .row {
   margin-bottom: 1.8rem;
 }
