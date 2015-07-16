@@ -25,6 +25,14 @@
 
         <section>
           <h3>Common Billing/Shipping/Profile Fields</h3>
+        </section>
+
+        <section>
+          <div class="row">
+            <div class="form-item buttons">
+              <button>Toggle Hidden Fields</button>
+            </div>
+          </div>
 
           <div class="row">
             <div class="form-item text">
@@ -43,7 +51,7 @@
           <div class="row">
             <div class="form-item text">
               <label for="address_2">Address (2)</label>
-              <input type="text" id="address_2" name="address_2" value="" placeholder="" autocomplete="address-line2" x-autocompletetype="address-line2" />
+              <input type="text" id="address_2" name="address_2" value="" placeholder="Room 214" autocomplete="address-line2" x-autocompletetype="address-line2" />
             </div>
           </div>
 
@@ -138,6 +146,12 @@
         </section>
 
         <section>
+          <div class="row">
+            <div class="form-item buttons">
+              <button>Toggle Hidden Fields</button>
+            </div>
+          </div>
+
           <div class="row">
             <div class="form-item text">
               <label for="cc_full_name">Name on Card</label>
