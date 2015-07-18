@@ -282,8 +282,9 @@ input[type="text"] {
   width: 100%;
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "sans-serif";
   font-size: 1.8rem;
-  padding: .4rem;
+  padding: .4rem 1rem;
   border: 1px solid #888;
+  border-left: .4rem solid #080;
   background: #fff;
   outline: none;
   border-radius: none;
@@ -291,6 +292,10 @@ input[type="text"] {
   -moz-appearance:    none;
   appearance:         none;
 }
+
+  .row.toggle input[type="text"] {
+    border-left: .4rem solid #800;
+  }
 
 input[type="submit"], button {
   display: block;
