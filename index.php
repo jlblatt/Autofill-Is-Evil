@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Autofill Is Evil</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   </head>
   <body>
 
@@ -30,7 +31,7 @@
         <section>
           <div class="row">
             <div class="form-item buttons">
-              <button>Toggle Hidden Fields</button>
+              <button type="button" class="toggle-btn">Toggle Hidden Fields</button>
             </div>
           </div>
 
@@ -41,98 +42,98 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="address_1">Address</label>
               <input type="text" id="address_1" name="address_1" value="" placeholder="420 Paper St." autocomplete="address-line1" x-autocompletetype="address-line1" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="address_2">Address (2)</label>
               <input type="text" id="address_2" name="address_2" value="" placeholder="Room 214" autocomplete="address-line2" x-autocompletetype="address-line2" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="city">City</label>
               <input type="text" id="city" name="city" value="" placeholder="Wilmington" autocomplete="city" x-autocompletetype="city" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="state">State</label>
               <input type="text" id="state" name="state" value="" placeholder="DE" autocomplete="state" x-autocompletetype="state" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="zip">Zip</label>
               <input type="text" id="zip" name="zip" value="" placeholder="19886" autocomplete="postal-code" x-autocompletetype="postal-code" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="country">Country</label>
               <input type="text" id="country" name="country" value="" placeholder="USA" autocomplete="country-name" x-autocompletetype="country" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="phone">Phone</label>
               <input type="text" id="phone" name="phone" value="" placeholder="(410) 867 5309" autocomplete="tel-national" x-autocompletetype="phone-national" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="fax">Fax</label>
               <input type="text" id="fax" name="fax" value="" placeholder="(410) 555 1212" autocomplete="fax-national" x-autocompletetype="fax-national" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="email">Email</label>
               <input type="text" id="email" name="email" value="" placeholder="tylerd@notarealdomain.com" autocomplete="email" x-autocompletetype="email" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="organization">Organization</label>
               <input type="text" id="organization" name="organization" value="" placeholder="Project Mayhem" autocomplete="org" x-autocompletetype="organization" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="position">Position/Title</label>
               <input type="text" id="position" name="position" value="" placeholder="Jack's Smirking Revenge" autocomplete="organization-title" x-autocompletetype="organization-title" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="birthday">Birthday</label>
               <input type="text" id="birthday" name="birthday" value="" placeholder="01/01/1970" autocomplete="bday" x-autocompletetype="birthday" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="gender">Gender</label>
               <input type="text" id="gender" name="gender" value="" placeholder="Male" autocomplete="sex" x-autocompletetype="gender" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="url">URL</label>
               <input type="text" id="url" name="url" value="" placeholder="http://www.mywebsite.com" autocomplete="url" x-autocompletetype="url" />
@@ -148,7 +149,7 @@
         <section>
           <div class="row">
             <div class="form-item buttons">
-              <button>Toggle Hidden Fields</button>
+              <button type="button" class="toggle-btn">Toggle Hidden Fields</button>
             </div>
           </div>
 
@@ -159,28 +160,28 @@
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="cc_number">Card Number</label>
               <input type="text" id="cc_number" name="cc_number" value="" placeholder="4111111111111111" autocomplete="cc-number" x-autocompletetype="cc-number" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="cc_exp_month">Card Expiration Month</label>
               <input type="text" id="cc_exp_month" name="cc_exp_month" value="" placeholder="<?php echo date('m'); ?>" autocomplete="cc-exp-month" x-autocompletetype="cc-exp-month" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="cc_exp_year">Card Expiration Year</label>
               <input type="text" id="cc_exp_year" name="cc_exp_year" value="" placeholder="<?php echo date('Y'); ?>" autocomplete="cc-exp-year" x-autocompletetype="cc-exp-year" />
             </div>
           </div>
 
-          <div class="row">
+          <div class="row toggle">
             <div class="form-item text">
               <label for="cc_csc">Card Security/Verification Code</label>
               <input type="text" id="cc_csc" name="cc_csc" value="" placeholder="123" autocomplete="cc-csc" x-autocompletetype="cc-csc" />
@@ -316,6 +317,15 @@ input[type="submit"], button {
   margin-bottom: 1.8rem;
 }
 
+  .row.toggle {
+    position: absolute;
+    left: -100%;
+  }
+
+    .row.toggle.visible {
+      position: static;
+    }
+
 .submit-data {
   border-left: 2px solid #ccc;
   padding-left: 1.6rem;
@@ -323,3 +333,22 @@ input[type="submit"], button {
 }
 
 </style>
+
+
+
+<script>
+
+  $(document).ready(function(){
+
+    $(".toggle-btn").on("click", function(){
+
+      $(this).closest("section").find(".row.toggle").each(function(){
+
+        $(this).toggleClass("visible");
+      });
+
+    });
+
+  });
+
+</script>
