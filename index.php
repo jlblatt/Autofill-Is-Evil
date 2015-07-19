@@ -29,116 +29,86 @@
         </section>
 
         <section>
-          <div class="row">
-            <div class="form-item buttons">
-              <button type="button" class="toggle-btn">Toggle Hidden Fields</button>
-            </div>
+
+          <div class="form-item buttons">
+            <button type="button" class="toggle-btn">Toggle Hidden Fields</button>
           </div>
 
-          <div class="row">
-            <div class="form-item text">
-              <label for="full_name">Name</label>
-              <input type="text" id="full_name" name="full_name" value="" placeholder="Tyler Durden" autocomplete="name" x-autocompletetype="name-full" />
-            </div>
+          <div class="form-item text">
+            <label for="full_name">Name</label>
+            <input type="text" id="full_name" name="full_name" value="" placeholder="Tyler Durden" autocomplete="name" x-autocompletetype="name-full" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="address_1">Address</label>
-              <input type="text" id="address_1" name="address_1" value="" placeholder="420 Paper St." autocomplete="address-line1" x-autocompletetype="address-line1" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="address_1">Address</label>
+            <input type="text" id="address_1" name="address_1" value="" placeholder="420 Paper St." autocomplete="address-line1" x-autocompletetype="address-line1" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="address_2">Address (2)</label>
-              <input type="text" id="address_2" name="address_2" value="" placeholder="Room 214" autocomplete="address-line2" x-autocompletetype="address-line2" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="address_2">Address (2)</label>
+            <input type="text" id="address_2" name="address_2" value="" placeholder="Room 214" autocomplete="address-line2" x-autocompletetype="address-line2" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="city">City</label>
-              <input type="text" id="city" name="city" value="" placeholder="Wilmington" autocomplete="city" x-autocompletetype="city" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="city">City</label>
+            <input type="text" id="city" name="city" value="" placeholder="Wilmington" autocomplete="city" x-autocompletetype="city" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="state">State</label>
-              <input type="text" id="state" name="state" value="" placeholder="DE" autocomplete="state" x-autocompletetype="state" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="state">State</label>
+            <input type="text" id="state" name="state" value="" placeholder="DE" autocomplete="state" x-autocompletetype="state" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="zip">Zip</label>
-              <input type="text" id="zip" name="zip" value="" placeholder="19886" autocomplete="postal-code" x-autocompletetype="postal-code" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="zip">Zip</label>
+            <input type="text" id="zip" name="zip" value="" placeholder="19886" autocomplete="postal-code" x-autocompletetype="postal-code" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="country">Country</label>
-              <input type="text" id="country" name="country" value="" placeholder="USA" autocomplete="country-name" x-autocompletetype="country" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="country">Country</label>
+            <input type="text" id="country" name="country" value="" placeholder="USA" autocomplete="country-name" x-autocompletetype="country" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="phone">Phone</label>
-              <input type="text" id="phone" name="phone" value="" placeholder="(410) 867 5309" autocomplete="tel-national" x-autocompletetype="phone-national" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" name="phone" value="" placeholder="(410) 867 5309" autocomplete="tel-national" x-autocompletetype="phone-national" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="fax">Fax</label>
-              <input type="text" id="fax" name="fax" value="" placeholder="(410) 555 1212" autocomplete="fax-national" x-autocompletetype="fax-national" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="fax">Fax</label>
+            <input type="text" id="fax" name="fax" value="" placeholder="(410) 555 1212" autocomplete="fax-national" x-autocompletetype="fax-national" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="email">Email</label>
-              <input type="text" id="email" name="email" value="" placeholder="tylerd@notarealdomain.com" autocomplete="email" x-autocompletetype="email" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" value="" placeholder="tylerd@notarealdomain.com" autocomplete="email" x-autocompletetype="email" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="organization">Organization</label>
-              <input type="text" id="organization" name="organization" value="" placeholder="Project Mayhem" autocomplete="org" x-autocompletetype="organization" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="organization">Organization</label>
+            <input type="text" id="organization" name="organization" value="" placeholder="Project Mayhem" autocomplete="org" x-autocompletetype="organization" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="position">Position/Title</label>
-              <input type="text" id="position" name="position" value="" placeholder="Jack's Smirking Revenge" autocomplete="organization-title" x-autocompletetype="organization-title" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="position">Position/Title</label>
+            <input type="text" id="position" name="position" value="" placeholder="Jack's Smirking Revenge" autocomplete="organization-title" x-autocompletetype="organization-title" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="birthday">Birthday</label>
-              <input type="text" id="birthday" name="birthday" value="" placeholder="01/01/1970" autocomplete="bday" x-autocompletetype="birthday" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="birthday">Birthday</label>
+            <input type="text" id="birthday" name="birthday" value="" placeholder="01/01/1970" autocomplete="bday" x-autocompletetype="birthday" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="gender">Gender</label>
-              <input type="text" id="gender" name="gender" value="" placeholder="Male" autocomplete="sex" x-autocompletetype="gender" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="gender">Gender</label>
+            <input type="text" id="gender" name="gender" value="" placeholder="Male" autocomplete="sex" x-autocompletetype="gender" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="url">URL</label>
-              <input type="text" id="url" name="url" value="" placeholder="http://www.mywebsite.com" autocomplete="url" x-autocompletetype="url" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="url">URL</label>
+            <input type="text" id="url" name="url" value="" placeholder="http://www.mywebsite.com" autocomplete="url" x-autocompletetype="url" />
           </div>
+
         </section>
 
         <section>
@@ -147,53 +117,45 @@
         </section>
 
         <section>
-          <div class="row">
-            <div class="form-item buttons">
-              <button type="button" class="toggle-btn">Toggle Hidden Fields</button>
-            </div>
+
+          <div class="form-item buttons">
+            <button type="button" class="toggle-btn">Toggle Hidden Fields</button>
           </div>
 
-          <div class="row">
-            <div class="form-item text">
-              <label for="cc_full_name">Name on Card</label>
-              <input type="text" id="cc_full_name" name="cc_full_name" value="" placeholder="Tyler Durden" autocomplete="cc-name" x-autocompletetype="cc-full-name" />
-            </div>
+          <div class="form-item text">
+            <label for="cc_full_name">Name on Card</label>
+            <input type="text" id="cc_full_name" name="cc_full_name" value="" placeholder="Tyler Durden" autocomplete="cc-name" x-autocompletetype="cc-full-name" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="cc_number">Card Number</label>
-              <input type="text" id="cc_number" name="cc_number" value="" placeholder="4111111111111111" autocomplete="cc-number" x-autocompletetype="cc-number" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="cc_number">Card Number</label>
+            <input type="text" id="cc_number" name="cc_number" value="" placeholder="4111111111111111" autocomplete="cc-number" x-autocompletetype="cc-number" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="cc_exp_month">Card Expiration Month</label>
-              <input type="text" id="cc_exp_month" name="cc_exp_month" value="" placeholder="<?php echo date('m'); ?>" autocomplete="cc-exp-month" x-autocompletetype="cc-exp-month" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="cc_exp_month">Card Expiration Month</label>
+            <input type="text" id="cc_exp_month" name="cc_exp_month" value="" placeholder="<?php echo date('m'); ?>" autocomplete="cc-exp-month" x-autocompletetype="cc-exp-month" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="cc_exp_year">Card Expiration Year</label>
-              <input type="text" id="cc_exp_year" name="cc_exp_year" value="" placeholder="<?php echo date('Y'); ?>" autocomplete="cc-exp-year" x-autocompletetype="cc-exp-year" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="cc_exp_year">Card Expiration Year</label>
+            <input type="text" id="cc_exp_year" name="cc_exp_year" value="" placeholder="<?php echo date('Y'); ?>" autocomplete="cc-exp-year" x-autocompletetype="cc-exp-year" />
           </div>
 
-          <div class="row toggle">
-            <div class="form-item text">
-              <label for="cc_csc">Card Security/Verification Code</label>
-              <input type="text" id="cc_csc" name="cc_csc" value="" placeholder="123" autocomplete="cc-csc" x-autocompletetype="cc-csc" />
-            </div>
+          <div class="form-item text toggle">
+            <label for="cc_csc">Card Security/Verification Code</label>
+            <input type="text" id="cc_csc" name="cc_csc" value="" placeholder="123" autocomplete="cc-csc" x-autocompletetype="cc-csc" />
           </div>
+
         </section>
 
-        <div class="row">
+        
+        <seciton>
           <div class="form-item buttons">
             <input type="submit" value="Submit" />
           </div>
-        </div>
+        </section>
+
       </form>  
 
     </div>
@@ -228,8 +190,9 @@ body {
   line-height: 1.3;
 }
 
-#wrap {
-  max-width: 800px;
+#wrapper {
+  max-width: 64rem;
+  margin: 0 auto;
 }
 
 strong {
@@ -318,16 +281,16 @@ input[type="submit"], button {
     opacity: .8;
   }
 
-.row {
+.form-item {
   margin-bottom: 1.8rem;
 }
 
-  .row.toggle {
+  .form-item.toggle {
     position: absolute;
     left: -100%;
   }
 
-    .row.toggle.visible {
+    .form-item.toggle.visible {
       position: static;
     }
 
@@ -347,7 +310,7 @@ input[type="submit"], button {
 
     $(".toggle-btn").on("click", function(){
 
-      $(this).closest("section").find(".row.toggle").each(function(){
+      $(this).closest("section").find(".form-item.toggle").each(function(){
 
         $(this).toggleClass("visible");
       });
