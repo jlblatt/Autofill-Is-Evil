@@ -21,14 +21,15 @@
 
       <form method="post">
         <section>
-          <p>Enter a few letters of the "Name" and/or the "Name on Card" field (if using HTTPS) and activate your browser's autocomplete feature- it will gladly fill out and send along fields you didn't even know were on the page!  Click "Toggle Hidden Fields" in each section to hide/show these hidden fields.  Submit the form with or without the fields hidden, and the server will display all data it received from your submission.</p>
+          <div class="text">
+            <p>Enter a few letters of the "Name" and/or the "Name on Card" field (if using HTTPS) and activate your browser's autocomplete feature- it will gladly fill out and send along fields you didn't even know were on the page!  Click "Toggle Hidden Fields" in each section to hide/show these hidden fields.  Submit the form with or without the fields hidden, and the server will display all data it received from your submission.</p>
+          </div>
         </section>
 
         <section>
-          <h3>Common Billing/Shipping/Profile Fields</h3>
-        </section>
-
-        <section>
+          <div class="text">
+            <h3>Common Billing/Shipping/Profile Fields</h3>
+          </div>
 
           <div class="form-item">
             <label for="full_name">Name</label>
@@ -112,11 +113,10 @@
         </section>
 
         <section>
-          <h3>Common Payment Fields*</h3>
-          <p><em>*This section will likely not autofill without an HTTPS connection</em></p>
-        </section>
-
-        <section>
+          <div class="text">
+            <h3>Common Payment Fields*</h3>
+            <p><em>*This section will likely not autofill without an HTTPS connection</em></p>
+          </div>
 
           <div class="form-item">
             <label for="cc_full_name">Name on Card</label>
@@ -204,7 +204,7 @@ em {
 }
 
 section {
-  margin: 2.4rem 0 4.2rem;
+  margin: 3.6rem 0 6.4rem;
 }
 
 h1 {
@@ -329,7 +329,7 @@ input[type="submit"] {
     margin-right: 4%;
   }
 
-  .form-item:nth-child(odd).toggle.visible {
+  .form-item:nth-child(even).toggle.visible {
     margin-right: 0;
   }
 }
